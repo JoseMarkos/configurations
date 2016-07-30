@@ -1,0 +1,28 @@
+set autowrite
+set backspace=2
+set encoding=utf-8
+set hlsearch
+set ignorecase
+set incsearch
+set mouse=a
+set nocompatible
+set smartcase
+set smartindent
+set title
+
+syntax on
+
+" jmarkos edit
+
+set number
+set softtabstop=2
+set shiftwidth=2
+set tabstop=2
+set iskeyword+=- 
+set expandtab
+
+" Scroll only one line for mouse wheel events to get smooth scrolling on touch screens
+map <ScrollWheelUp> <C-Y>
+imap <ScrollWheelUp> <C-X><C-Y>
+map <ScrollWheelDown> <C-E>
+imap <ScrollWheelDown> <C-X><C-E>
